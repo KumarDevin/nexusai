@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { Menu, X, ChevronDown, Brain } from 'lucide-react';
+import { Menu, X, Brain } from 'lucide-react';
 
 const Navbar: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -44,7 +44,7 @@ const Navbar: React.FC = () => {
           {/* Logo */}
           <Link to="/" className="flex items-center gap-2">
             <Brain className="h-8 w-8 text-primary-600" />
-            <span className="text-xl font-bold text-gray-900">NexusAI</span>
+            <span className={`text-xl font-bold ${isScrolled ? 'text-gray-700' : 'text-white' } `}>NexusAI</span>
           </Link>
 
           {/* Desktop Navigation */}
@@ -73,7 +73,7 @@ const Navbar: React.FC = () => {
           <div className="md:hidden">
             <button
               onClick={toggleMenu}
-              className="text-gray-700 hover:text-primary-600 focus:outline-none"
+              className="text-black hover:text-primary-600 focus:outline-none"
               aria-label="Toggle menu"
             >
               {isOpen ? <X size={24} /> : <Menu size={24} />}

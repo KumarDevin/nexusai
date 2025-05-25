@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import aivideo from './videos/3141208-hd_1280_720_25fps.mp4';
 import { ArrowRight } from 'lucide-react';
 
 const HeroSection: React.FC = () => {
@@ -17,10 +18,9 @@ const HeroSection: React.FC = () => {
           poster="https://images.pexels.com/photos/373543/pexels-photo-373543.jpeg"
         >
           <source 
-            src="https://player.vimeo.com/external/477294144.sd.mp4?s=5d3c61155c231c3ca9ff1b6752600e1dcaa15aee&profile_id=139&oauth2_token_id=57447761" 
+            src={aivideo} 
             type="video/mp4" 
           />
-          Your browser does not support the video tag.
         </video>
       </div>
       

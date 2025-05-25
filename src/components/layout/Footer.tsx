@@ -99,14 +99,14 @@ const Footer: React.FC = () => {
               <li className="flex items-start gap-3">
                 <MapPin className="h-5 w-5 text-primary-400 mt-0.5" />
                 <span className="text-gray-400">
-                  123 Innovation Drive, Tech Park<br />
-                  San Francisco, CA 94103
+                  206 Mahadev Tower, Tech Park<br />
+                  Jodhpur, RAJ 342021, India
                 </span>
               </li>
               <li className="flex items-center gap-3">
                 <Phone className="h-5 w-5 text-primary-400" />
-                <a href="tel:+14155550123" className="text-gray-400 hover:text-white transition-colors">
-                  +1 (415) 555-0123
+                <a href="tel:+7551234567" className="text-gray-400 hover:text-white transition-colors">
+                  +91 755 123 4567
                 </a>
               </li>
               <li className="flex items-center gap-3">

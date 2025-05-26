@@ -1,5 +1,6 @@
 import React from 'react';
 import { useLocation } from 'react-router-dom';
+import predictive from './predictive-analysis.jpg';
 import { LineChart, MessageSquare, Camera, Bot, Brain, Code } from 'lucide-react';
 
 interface SolutionProps {
@@ -96,7 +97,7 @@ const SolutionsContent: React.FC = () => {
         "Demand prediction and inventory optimization",
         "Customer churn prediction"
       ],
-      image: "https://images.pexels.com/photos/7792547/pexels-photo-7792547.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      image: predictive,
       benefits: [
         {
           title: "Data-Driven Decisions",

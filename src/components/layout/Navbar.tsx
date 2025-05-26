@@ -64,9 +64,9 @@ const Navbar: React.FC = () => {
                 {link.name}
               </Link>
             ))}
-            <Link to="/contact" className="btn btn-primary">
+            {/* <Link to="/contact" className="btn btn-primary">
               Contact Us
-            </Link>
+            </Link> */}
           </div>
 
           {/* Mobile Menu Button */}
@@ -102,12 +102,12 @@ const Navbar: React.FC = () => {
               {link.name}
             </Link>
           ))}
-          <Link
+          {/* <Link
             to="/contact"
             className="block w-full text-center btn btn-primary mt-4"
           >
             Contact Us
-          </Link>
+          </Link> */}
         </div>
       </div>
     </nav>

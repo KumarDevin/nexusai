@@ -1,8 +1,10 @@
 import React from 'react';
 import devin from "./images/Resume_image_devin.jpg";
-import pulkit from "./images/pulkit.jpg";
-import natasha from "./images/Natasha.jpg"
-import ganesh from "./images/ganesh.jpg"
+import bhagat from "./images/bhagat.png";
+import sudhansh from "./images/sudhansh.jpg";
+import bharat from "./images/bharat.png";
+import anuradha from "./images/anurandha.png"
+import devanshu from "./images/devu.png"
 import { Linkedin, Twitter, Github } from 'lucide-react';
 
 type TeamMemberProps = {
@@ -82,7 +84,7 @@ const TeamSection: React.FC = () => {
     {
       name: "Bharat Agrawal",
       role: "CTO",
-      image: devin,
+      image: bharat,
       bio: "Former lead engineer at Google AI, Marcus brings over 15 years of experience in developing scalable AI systems and deep learning architectures.",
       social: {
         linkedin: "#",
@@ -91,9 +93,9 @@ const TeamSection: React.FC = () => {
       }
     },
     {
-      name: "Natasha",
+      name: "Anuradha",
       role: "Chief Data Scientist",
-      image: natasha,
+      image: anuradha,
       bio: "Specializing in predictive analytics and NLP, Aisha has published numerous papers on efficient algorithms and leads our data science initiatives.",
       social: {
         linkedin: "#",
@@ -103,7 +105,7 @@ const TeamSection: React.FC = () => {
     {
       name: "Devanshu Tiwari",
       role: "VP of Engineering",
-      image: ganesh,
+      image: devanshu,
       bio: "With expertise in distributed systems and cloud architecture, David ensures our AI solutions are robust, scalable and optimized for performance.",
       social: {
         linkedin: "#",
@@ -111,9 +113,9 @@ const TeamSection: React.FC = () => {
       }
     },
     {
-      name: "Pulkit Soni",
+      name: "Sudhansh Dugat",
       role: "Head of Ethics & Governance",
-      image: pulkit,
+      image: sudhansh,
       bio: "Elena combines her background in philosophy and computer science to guide our ethical AI development and responsible innovation practices.",
       social: {
         linkedin: "#",
@@ -123,7 +125,7 @@ const TeamSection: React.FC = () => {
     {
       name: "Bhagat Singh",
       role: "Director of Business Development",
-      image: ganesh,
+      image: bhagat,
       bio: "James bridges the gap between technology and business value, helping clients identify the right AI solutions for their specific challenges.",
       social: {
         linkedin: "#"

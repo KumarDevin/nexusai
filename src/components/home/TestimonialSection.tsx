@@ -1,5 +1,8 @@
 import React from 'react';
 import { Star } from 'lucide-react';
+import ganpatji from './images/Ganpat_Lal.png';
+import anirudh from './images/anirudh.png';
+import indu from './images/Indubala.png'; 
 
 type TestimonialProps = {
   content: string;
@@ -33,24 +36,23 @@ const TestimonialSection: React.FC = () => {
   const testimonials = [
     {
       content: "NexusAI's predictive analytics solution transformed our supply chain management, reducing costs by 23% while improving delivery times.",
-      author: "Sarah Johnson",
+      author: "Indubala Sharma",
       role: "COO",
       company: "Global Logistics Inc.",
-      image: "https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+      image: indu
     },
     {
       content: "The computer vision system implemented by NexusAI has revolutionized our quality control process, catching defects that were previously missed.",
-      author: "Michael Chen",
+      author: "Anirudh Shanesha",
       role: "Director of Operations",
       company: "Precision Manufacturing",
-      image: "https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-    },
+      image: anirudh},
     {
       content: "We've seen a 40% increase in customer satisfaction since implementing NexusAI's conversational AI agents for our customer service department.",
-      author: "Jessica Patel",
+      author: "Ganpat Lal",
       role: "Customer Experience Director",
       company: "TechSupport Pro",
-      image: "https://images.pexels.com/photos/1181686/pexels-photo-1181686.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+      image: ganpatji
     }
   ];
 
